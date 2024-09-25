@@ -10,7 +10,7 @@ author:
 format:
   clean-revealjs:
     self-contained: true
-    footer: "[For Loops](https://danilofreire.github.io/)"
+    footer: "[For Loops](https://raw.githack.com/danilofreire/qtm151/main/lectures/lecture-06/06-while-for.html)"
 transition: slide
 transition-speed: default
 scrollable: true
@@ -467,6 +467,8 @@ for id in list_ids:
 
 :::{style="margin-top: 30px; font-size: 24px;"}
 ```{python}
+#| echo: true
+#| eval: true
 for i in range(len(list_ids)):
     print("Dear customer, your position is " + str(i+1) + " on the waitlist" +
            " and your car brand is " + list_ids[i])
